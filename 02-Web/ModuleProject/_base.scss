@@ -1,0 +1,19 @@
+
+
+$color-primary: #021239c6;
+$color-secondary: #728cce;
+$color-white: white;
+$color-light-yellow: rgb(205, 205, 173);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: $color-primary;
+  }
+
+  a:link,
+  a:visited {
+      text-decoration: none;
+  }
