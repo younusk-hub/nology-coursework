@@ -62,10 +62,12 @@ h4 {
 .advice {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .advice h4, .advice span {
   text-align: left;
   font-size: 30px;
+  width: fit-content;
 }
 .advice h4 {
   margin-left: 10px;
@@ -111,4 +113,10 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: #cdcdad;
+}
+
+@media screen and (min-width: 768px) {
+  main #content {
+    width: 70%;
+  }
 }

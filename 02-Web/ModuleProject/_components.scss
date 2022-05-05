@@ -51,10 +51,12 @@ h4 {
 .advice {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     h4, span {
         text-align: left;
         font-size: 30px;
+        width:fit-content;
     }
 
     h4 {
@@ -85,3 +87,4 @@ footer {
         padding: 15px;
     }
 }
+
