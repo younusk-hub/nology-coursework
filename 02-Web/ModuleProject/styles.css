@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color: #021239c6;
+  font-size: 30px;
 }
 
 a:link,
@@ -16,19 +17,60 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
-  margin: 10px;
 }
 
 .logo {
   font-size: 60px;
   display: block;
   font-weight: bolder;
+  margin-right: 15px;
 }
 
 .button1 {
-  font-size: 30px;
   font-weight: bold;
   border: 2px solid #021239c6;
   padding: 15px 35px;
   border-radius: 10px;
+}
+
+#img1 {
+  margin: 40px;
+  width: 500px;
+}
+
+h1, h2, h3, h4, .button2 {
+  margin: 40px;
+  text-align: center;
+}
+
+h1, h3 {
+  color: #7099ff;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.button2 {
+  background-color: #021239c6;
+  color: white;
+  padding: 20px 70px;
+  border-radius: 10px;
+}
+
+main {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-top: 0%;
+}
+
+#content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }

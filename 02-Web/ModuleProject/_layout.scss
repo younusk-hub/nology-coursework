@@ -1,0 +1,16 @@
+main {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    padding-top: 0%;
+}
+
+#content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
