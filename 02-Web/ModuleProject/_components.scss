@@ -7,7 +7,7 @@ nav {
 }
 
 .logo {
-    font-size: 60px;
+    font-size: 80px;
     display: block;
     font-weight: bolder;
     margin-right: 15px;
@@ -21,7 +21,7 @@ nav {
 }
 
 #img1 {
-    margin: 40px;
+    margin: 40px 0 40px 0;
     width: 500px;
 
 }
@@ -37,7 +37,9 @@ h1, h3 {
 
 h4 {
     font-weight: lighter;
+    font-size: 30px;
 }
+
 
 .button2 {
     background-color: $color-primary;
@@ -46,4 +48,40 @@ h4 {
     border-radius: 10px;
 }
 
+.advice {
+    display: flex;
+    align-items: center;
 
+    h4, span {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    h4 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    span {
+        font-weight: bold;
+    }
+    
+    #italic {
+        font-style: italic;
+        font-weight: lighter;
+        
+    }
+
+    img {
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+
+    }
+}
+
+footer {
+    a {
+        padding: 15px;
+    }
+}
